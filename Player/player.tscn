@@ -219,10 +219,10 @@ script = ExtResource("1_joqn7")
 shape = SubResource("CapsuleShape2D_mgouo")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(3, -25)
+position = Vector2(4, -35)
 scale = Vector2(3.39286, 3.39286)
 sprite_frames = SubResource("SpriteFrames_f8ltb")
-animation = &"fall"
+animation = &"run"
 autoplay = "idle"
 
 [node name="Camera2D" type="Camera2D" parent="."]
